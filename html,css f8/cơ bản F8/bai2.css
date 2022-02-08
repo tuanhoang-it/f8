@@ -1,0 +1,33 @@
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: left;
+}
+.box1{
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box2{
+    background-color: blue;
+    border-top: 10px solid green;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* padding: 1px => trên, phải, dưới, trái = 1px
+padding: 1px 2px => trên, dưới = 1px; trái, phải = 2px
+padding: 1px 2px 3px => trên = 1px; trái, phải = 2px; dưới = 3px
+padding: 1px 2px 3px 4px => trên=1, phải=2, dưới=3, trái=4
+*/
+.box3{
+    background-color: brown;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    box-sizing: border-box;
+}

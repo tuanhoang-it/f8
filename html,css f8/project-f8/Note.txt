@@ -1,0 +1,9 @@
+Những thành phần của 1 trang web
+1. header (đầu trang)
+2. Navigation (điều hướng)
+3. Breodcrumb 
+4. Sidebar (thanh phụ nằm bên trái hoặc bên phải)
+5. Slider
+6. Banner (ảnh trên web)
+6. Content (Nội dung chính của web)
+7. Footer (chân trang)

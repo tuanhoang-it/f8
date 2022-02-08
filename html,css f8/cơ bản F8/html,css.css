@@ -1,0 +1,80 @@
+#first-heading{
+    color: red;
+}
+.second-heading{
+    color: green;
+    font-size: 20px;
+}
+
+/* đặt biến */
+:root{
+    --text-color: blue; 
+}
+
+h2{
+    --my-color: yellow;
+    color: var(--my-color);
+}
+h3{
+    color: var(--text-color);
+}
+/* sử dụng các function cacl(), rgb(), attr() */
+.box{
+    width: calc(30% + 30%);
+    height: 100px;
+    background-color: rgb(124, 76, 76);
+}
+.box::after{
+    content: attr(ok-title);
+}
+a::after{
+    content: " (" attr(href) ")";
+}
+a:hover{
+    color: red;
+}
+h3:active{
+    color: violet;
+}
+.box2{
+    background-color: yellow;
+    width: 40%;
+    height: 25rem;
+}
+.box-left{
+    width: 100%;
+    background-color: green;
+}
+.box-right{
+    background-color: red;
+    height: 70px;
+}
+.box-right::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+.box-right::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+
+/* first-letter là chữ cái đầu */
+h4::first-letter{
+    font-size: 50px;
+}
+/* first-line là dòng đầu */
+h4::first-line{
+    font-size: 30px;
+    color: lawngreen;
+}
+/* selection là bôi đen chữ */
+h4::selection{
+    background-color: black;
+}
+
